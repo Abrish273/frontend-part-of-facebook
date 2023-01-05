@@ -1,0 +1,94 @@
+.register{
+    background: rgb(193, 190, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 50%;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 500px;
+        
+        overflow: hidden;
+        
+        .left{
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("../../assets/a.jpg") center;
+            color: whitesmoke;
+            flex: 1;
+            display: flex;
+            background-size: cover;
+            flex-direction: column;
+            padding: 25px 10px;
+            gap: 15px;
+            
+            align-items: center;
+            
+            h1{
+            
+               padding: 0;
+               font-size: 80px;
+               line-height: 80px;
+               margin: 0;
+
+            }
+             p{
+                color: rgb(231, 226, 226);
+                letter-spacing: 0.01em;
+                font-size: 15px;
+             }
+             span{
+               size: 14px;
+ 
+             }
+             button{
+               
+                width: 90px;
+                padding: 10px 0;
+                border: none;
+                
+                background-color: whitesmoke;
+                color: rebeccapurple;
+                font-weight: bold;
+                cursor: pointer;
+                                 
+            }
+        }
+        .right{ 
+            flex: 1;
+            padding: 10px 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            h1{
+                display: flex;
+                align-items: flex-start;
+                color: #555;
+            }  
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgrey;
+                    padding: 10px;
+                    margin: 0 10px;
+ 
+                 }
+                 button{
+                    border: none;
+                    width: 50%;
+                    color: white;
+                    padding: 15px;
+                    font-weight: bold;
+                    font-size: 14px;
+                    background: #938eef;
+                 }
+             }
+         }
+     }
+ }
